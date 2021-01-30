@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+{% block titulo %}
+{% endblock %}
+<meta name="generator" content="Geany 1.37.1" />
+<!--font yusei magic-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+
+<!---font oxigen-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+
+<!--Font oswald-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+<!--Font awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+{% load static %}
+<link rel="stylesheet" href="{% static 'app/style-css/style.css' %}">
+<link rel="stylesheet" href="{% static 'app/style-css/bar.css' %}">
+<link rel="shortcut icon" href="{% static 'app/img/kurumi1.ico' %}">
+{% block css %}
+{% endblock %}
+<script>console.log("Todo bien bastante bien no?")</script>
+</head>
+<body>
+  <nav id="Barra">
+  		<img src="{%static 'app/img/espera-que.png' %}" alt="ico0" class="ico">
+    	<ul class="ul-bar">
+  				{% block li %}
+    			{% endblock %}
+    	</ul>
+      <img src="{% static 'app/img/icono-despliege.png' %}" class="icon-desp">
+  </nav>
+    {% block extra %}
+    {% endblock %}
+    <div class="container">
+        {% block container %}
+        {% endblock %}
+    </div>
+    <div class="pie_pag">
+      <footer>
+        
+      </footer>
+    </div>
+    <script src="{% static 'app/main.js' %}"></script>
+</body>
+
+</html>

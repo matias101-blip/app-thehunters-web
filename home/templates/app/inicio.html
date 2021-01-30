@@ -1,0 +1,92 @@
+{% extends 'app/index.html' %}
+{% block titulo %}
+<title>Bienvenido</title>
+{% endblock %}
+{% block css %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'app/style-css/style_home.css' %}">
+<style type="text/css">
+	body{
+		background-color: #62aad9;
+		background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.42'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+	}
+</style>
+{% endblock %}
+{% block li %}
+<li><a href="/">Inicio</a></li>
+<li><a href="Proyectos/">Proyectos</a></li>
+<li><a href="#">App</a></li>
+<li><a href="#">About</a></li>
+{% endblock %}
+{% block extra %}
+<!--<hr class="linea-hr">
+<style type="text/css">
+	.linea-hr{
+		height: 4px;
+		background-color: #252526;
+	}
+</style>-->
+{% endblock %}
+{% block container %}
+<section class="cards">
+	<div class="card1">
+		<h1>The hunter101</h1>
+		<img src="{% static 'app/img/Rhatian.gif' %}" alt="rathian" class="gif1">
+		<div class="card1_cont">
+			<p>Nombre: Matias Murcia <br> Edad: 17 <br> Abilidades: typer y programador de fronted.</p>
+		</div>
+	</div>
+	<div class="card2">
+		<h2>Que es esta paguina ?</h2>
+		<div class="card2_cont">
+			<p>Esta paguina es una especie de portafolio en el cual esta algunos proyectos echo por su servidor osea yo bueno dejemos ablar de mi y hablemos en lo que e aportado en internet enpecemos, fui typper y traductor en dos scans de mangas en el cual trabaje en Bastard y Honzuki aportando 4 o 5 capitulos , tambien trabajo en bakend con python y su framework django con el cual esta echa la paguina y el lenguaje de programacion que mas me gusta o me atrae es python por su syntaxis facil de entender y pos diviertanse probando los proyectos que dejare y busquen los esteregg que estan escondidos suerte :3.</p>
+			<img src="{% static 'app/img/cats.gif' %}" alt="cats" class="cats1">
+		</div>
+	</div>
+</section>
+	<section class="baner">
+		<div class="baner1">
+			<h2>Mini curso de python desde cero.</h2>
+			<p>Aqui muestro un mini curso de python sin necesidad de saber programar y en menos de 1 hora ya puedes andar programando un scrip xD.</p>
+			<a href="#" class="btn">Leer mas..</a>
+		</div>
+	</section>
+	<section class="egg">
+		<div id="ay" class="egg1">
+			<a href="#"><img src="{% static 'app/img/espera-que.png' %}" alt="ico2" class="ico2"></a>
+		</div>
+	</section>
+	<div id="cards2">
+		<div class="card-1">
+			<img src="{% static 'app/img/HTML5_Logo_256.png' %}" alt="html-logo">
+			<h3>Titulo 1</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="card-2">
+			<img src="{% static 'app/img/css_blog.png' %}">
+			<h3>Titulo 2</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<div class="card-3">
+			<img src="{% static 'app/img/django-ico.png' %}">
+			<h3>Titulo 3</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+	</div>
+</div>
+{% endblock %}

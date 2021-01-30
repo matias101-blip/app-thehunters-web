@@ -1,0 +1,75 @@
+/* Barra de navegacion*/
+#Barra{
+    position: relative;
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+    height: 70px;
+    padding: 24px;
+    background: #252526;
+    opacity: 0.9;
+    transition: 500ms linear;
+}
+
+#Barra.nav-bar{
+    position: fixed;
+    z-index: 50;
+    width: 100%;
+    top: -70px;
+}
+
+#Barra .icon-desp{
+    cursor: pointer;
+    position: absolute;
+    top: 53px;
+    left: 50%;
+    transform: rotate(90deg);
+    opacity: 0.8;
+}
+
+#Barra .icon-desp:hover{
+    opacity: 1;
+}
+
+#Barra ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+}
+#Barra ul li{
+    padding: 22px;
+}
+#Barra ul.ul-bar{
+    flex: 1;
+    margin-left: 15px;
+}
+#Barra li{
+    color: white;
+}
+#Barra ul li a{
+    padding: 1px;
+}
+#Barra ul li a:hover{
+    border-top: red solid;
+    opacity: 0.7;
+}
+
+.ico{
+    width: 55px;
+    height: 53px;
+    display: inline-block;
+}
+
+#Barra a{
+ font-family: 'Oxygen',sans-serif; 
+}
+
+#Barra.nav-bar{
+    background-color: #252526; opacity: 0.9;
+}
+
+#Barra.nav-bar ul li,
+#Barra.nav-bar a{
+    opacity: 1.0;
+}
+/* End */

@@ -1,0 +1,165 @@
+.container{
+    width: 98%;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    padding: 10px;
+}
+
+.card1{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin: 5px;
+    flex: 1;
+    width: 340px;
+    text-align: center;
+    background-color: #252526;
+    box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0);
+    border-radius: 15px;
+    opacity: 0.9;
+}
+
+.card1 p ,
+.card1 h1{
+    opacity: 1;
+    font-family: 'Yusei Magic', sans-serif;
+    color: antiquewhite;
+}
+
+.card1_cont,
+.card2_cont{
+    text-align: left;
+    margin: 15px;
+}
+
+.gif1{
+    width: 300px;
+    height: 300px;
+}
+
+.cats1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: auto;
+    padding-top: auto;
+    height: 187px;
+}
+
+.card2{
+    padding-top: 8px;
+    margin: 8px;
+    flex: 2;
+    width: 600px;
+    text-align: center;
+    background-color: #252526; opacity: 0.9;
+    box-shadow: 0 4px 8px 0  rgba(0, 0, 0, 0);
+    border-radius: 15px;
+}
+
+.card2 p ,
+.card2 h2{
+    opacity: 1;
+    color: blanchedalmond;
+    font-family: 'Yusei Magic', sans-serif;
+}
+.baner1{
+    width: 100%;
+    height: 325px;
+    background: url(../img/baner1.jpg)  no-repeat center center/cover;
+    background-color: rgb(0,0,0,0); opacity: 0.9;
+    padding-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 10px;
+}
+
+.baner1 p,
+.baner1 h2{
+    text-align: center;
+    width:500px;
+    font-family: 'Oswald',sans-serif;
+    font-size: 16px;
+    color: antiquewhite;
+    opacity: 1.0;
+}
+
+.baner1 h2{
+    padding-bottom: 5px;
+}
+
+.baner1 a{
+    font-family: 'Oswald',sans-serif;
+}
+
+.btn{
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid skyblue;
+    margin: 10px 20px;
+    background-color: #252526;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.btn:hover{
+    opacity: 0.7;
+}
+
+.ico2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-1113%,-256%);
+    width: 20px;
+    height: 20px;
+    opacity: 0.0;
+}
+
+.ico2:hover{
+    opacity: 0.4;
+}
+
+#cards2{
+    padding: 7px;
+    display: grid;
+    /*border: 1px solid;*/
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#cards2 p{
+    opacity: 1;
+    color: white;
+    margin: 6px;
+}
+
+#cards2 h3{
+    opacity: 1;
+    color: white;
+    text-align: center;
+}
+
+#cards2 img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+}
+
+.card-1,
+.card-2,
+.card-3{
+    box-shadow: 0 6px 4px 0 rgba(0,0,0,0.5);
+    border-radius: 15px;
+    margin: 6px;
+    background-color: #252526; 
+    opacity: 0.9;
+
+}
+
