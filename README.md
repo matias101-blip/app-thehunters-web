@@ -4,4 +4,4 @@
   <li>Descarge el proyecto en zip o con git clone</li>
   <li>Necesita tener instalado la ultima verison de python</li>
   <li>Abra la carpeta en una terminal y ejecute python manage.py runserver</li>
-  <li>En su navegador escribe localhost:8000 como url y se le abrira la guina disfrutala <br> si ven un erro porfa arreglalo o escribeme a mi correo murciamatias101@gmail.com gracias</li>
+  <li>En su navegador escribe localhost:8000 como url y se le abrira la paguina.</li>
